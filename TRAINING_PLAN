@@ -1,0 +1,109 @@
+Week 1: 
+Topics: 
+- Python basics
+-- Running scripts, setting up environment
+-- Variables, identifiers, types
+-- Type conversions in Python
+-- Statements: expressions, conditions, assignments
+-- Control flow statements: if statements, loop (for/while) statements
+-- I/O basics: keyboard input, output to console
+-- Script arguments
+-- Strings, string manipulations
+-- Functions, function calls and recursion
+-- Data structures: lists, tuples, dictionaries, sets
+-- Output formatting
+Tasks:
+- "Hello world": run in the interpreter window, create a script printing "Hello World"
+- Variable and types 1: Create a string variable, cast it to integer, cast int to float, cast to int and then to float. Play with different values.
+- Variable and types 2: Create an integer variable, cast it to string, cast int to float, cast to int and then to float. Play with different values.
+- Expressions 1: Create an integer variable Tc (temperature in Celcius). Print the same temperature in Farenheit. (Use wikipedia to find the right formula)
+- Expressions 2: Print the following pattern (using 'for' loop). 
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+*
+Advanced version: Number of rows shall be specified by the constant (integer variable in the code).
+Rewrite the same task using the 'while' loop.
+- Scripts, I/O, command line 1: Request user to enter a number from a command line, convert to int, if the number is odd print "Odd", print "Even" otherwise.
+- Scripts, I/O, command line 2: Retrieve an argument from the command line, convert the value to int, if the number is odd print "Odd", print "Even" otherwise.
+- Strings 1: Retrieve two first arguments from script arguments. Remove all occurrences of the second string in the first one. Print the result to console. 
+	(E.g. '"Hello World" o' shall result in "Hell Wrld")
+- Strings 2: The same as previous task but disregarding the character case. The result shall be printed 3 times (no loops allowed in the code) 
+	(E.g. '"Hello World" w' shall result in "Hello orld Hello orld Hello orld")
+- Functions1: Retrieve all arguments from command line arguments. Print all the arguments convertible to integer in a straight and then in a reverse orders 
+	(E.g calling script with arguments "3 -5 19 a hello 15" shall result in "3 -5 19 15 15 19 -5 3")
+- Functions2: Print n-th value of fibonacci numbers ('n' specified by script arguments).
+- Data structures 1: Retrieve all arguments from command line arguments. Print all the unique values (use python 'Set' to do this). (E.g. )
+- Data structures 2: Print first n rows of Pascal triangle ('n' specified by script arguments). Use a separate function to generate n-th row from (n-1)-th row.
+	(See wikipedia on how the pascal triangle is constructed)
+- Tic-tac-toe game: Two player game. Program shall invite players ('X' and 'O' player) to make a move. Move shall be specified in the command line in a form XY, 
+	where X is a row number and Y is a column number. After each move the game shall print the 'board' in a form
+   1 2 3
+1  X _ X
+2  _ O _
+3  O _ _
+The game shall automatically check if there is a win or draw after each move and print 'X wins', 'O wins' or 'draw'.
+
+
+Week 2:
+Topics: 
+- Modules and packages in python
+-- Importing modules
+-- Standard modules: os, sys, random, datetime, etc
+-- Writing own modules
+-- Embedded '__name__' variable
+- Documentation
+-- Doc strings, comments, self-documenting code
+-- Writing tests
+Tasks:
+- 
+
+Week 3-4:
+Topics: 
+- I/O in python
+-- Files, directories
+-- Networking in python
+- OOP, OOA/OOD
+-- Main concepts: inheritance, encapsulation, polymorphism
+-- SW design
+-- TDD
+-- UML diagrams intro
+-- Classes in python
+Tasks:
+- 
+
+Week 5:
+Topics:
+- Functional programming:
+-- Functional programming essentials
+-- Functional programming in python
+-- Generators
+-- Comprehension
+-- "itertools" module
+Tasks:
+- 
+
+Week 6:
+Topics: 
+- Advanced python
+-- Decorators
+-- Operator overloading
+-- Exception handling
+-- Regular expressions
+Tasks:
+- 
+
+Week 7:
+Topics:
+- Standard GUI libraries:
+-- TKinter/pyQT
+Tasks:
+- 
+
+Reading:
+- Mark Lutz "Learning Python"
